@@ -11,7 +11,7 @@
         @endforeach
     </ul>
 @endif
-@foreach( $perfume as $perfume )
+
 <form action="update-perfume" method="post">
     @csrf
     <input type="hidden" name="id" value="{{ $perfume->id }}">
